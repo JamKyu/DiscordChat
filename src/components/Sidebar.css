@@ -4,6 +4,7 @@
     flex: 0.25;
     height: 100vh;
     background-color: #2f3135;
+    max-width: 350px;
 }
 
 .sidebar__top {
@@ -42,7 +43,8 @@
     align-items: center;
 }
 
-.sidebar__voice {
+.sidebar__voice,
+.sidebar__profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,20 +56,22 @@
 
 .sidebar__voice--info {
     flex: 1;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .sidebar__voice--icon,
-.sidebar__voice--info > h3 {
+.sidebar__voice--info > h5 {
     color: rgb(232, 0, 0);
 }
 
-.sidebar__voice--info > p {
+.sidebar__voice--info > p,
+.sidebar__profile--info > p {
     font-size: smaller;
 }
 
-.sidebar__voice--icons > .MuiSvgIcon-root {
-    padding: 10px;
+.sidebar__voice--icons > .MuiSvgIcon-root,
+.sidebar__profile--icons > .MuiSvgIcon-root {
+    margin-left: 10px;
 }
 
 .sidebar__voice--buttons > .MuiButtonBase-root {
@@ -75,8 +79,26 @@
     pointer-events: auto;
     color: grey;
     background-color: #343639;
+    text-transform: inherit;
+    margin-right: 8px;
+    width: 42%;
+}
+
+.sidebar__voice--buttons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .sidebar__voice--buttons > .MuiButtonBase-root:hover {
     background-color: transparent;
+}
+
+.sidebar__profile--info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__profile--info > h5 {
+    color: white;
 }
