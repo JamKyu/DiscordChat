@@ -1,0 +1,82 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2f3135;
+}
+
+.sidebar__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar__channels {
+    flex: 1;
+}
+
+.sidebar__add-channel {
+    cursor: pointer;
+}
+
+.sidebar__add-channel:hover {
+    color: white;
+}
+
+.sidebar__channels--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: grey;
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__voice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid grey;
+}
+
+.sidebar__voice--info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__voice--icon,
+.sidebar__voice--info > h3 {
+    color: rgb(232, 0, 0);
+}
+
+.sidebar__voice--info > p {
+    font-size: smaller;
+}
+
+.sidebar__voice--icons > .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.sidebar__voice--buttons > .MuiButtonBase-root {
+    cursor: not-allowed;
+    pointer-events: auto;
+    color: grey;
+    background-color: #343639;
+}
+
+.sidebar__voice--buttons > .MuiButtonBase-root:hover {
+    background-color: transparent;
+}
