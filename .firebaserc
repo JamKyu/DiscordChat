@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "discord-clone-3fa26"
-  }
+  },
+  "targets": {
+    "discord-clone-3fa26": {
+      "hosting": {
+        "discordchat": [
+          "https://jamkyu-discordchat.web.app/"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
