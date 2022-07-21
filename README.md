@@ -1,5 +1,7 @@
 # Discord Chat with React App and Redux
 
+Discord Chat Clone using React, Redux that allows users to add text channels and send messages with Google Authentication.
+
 ToDo:
 - Update Timestamp
 - Implement Photo Upload
